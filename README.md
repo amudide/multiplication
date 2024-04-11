@@ -6,5 +6,7 @@ When c is the product of primes, the algorithm computes a*b (mod p_i) for all i 
 
 In the general case, the algorithm exploits primitive roots, multiplicative order and the Chinese Remainder Theorem (CRT) simultaneously.
 
-<img width="623" alt="figure" src="https://github.com/amudide/multiplication/assets/28817835/2bb3df3e-4c1e-4bc1-b72a-9bce86724efa">
+<p align="center">
+  <img src="https://github.com/amudide/multiplication/figure.png?raw=true" alt="Figure"/>
+</p>
 
