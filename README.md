@@ -2,7 +2,7 @@
 
 When $c$ is prime, the algorithm is analogous to the modular addition algorithm described by [Nanda et al.](https://arxiv.org/abs/2301.05217) due to the existence of a primitive root $g$.
 
-When $c$ is the product of primes $p_1p_2 \cdots p_n$, the algorithm computes $a \cdot b \text{ (mod } p_i)$ using a primitive root $g_i$ for all $1 \le i \le n$ and combines the solutions using the Chinese Remainder Theorem (CRT).
+When $c$ is the product of primes $\prod_{i=1}^{n} p_i$, the algorithm computes $a \cdot b \text{ (mod } p_i)$ using a primitive root $g_i$ for all $1 \le i \le n$ and combines the solutions using the Chinese Remainder Theorem (CRT).
 
 In the general case, the algorithm exploits primitive roots, multiplicative order and CRT simultaneously.
 
