@@ -1,0 +1,1 @@
+{"name": "modmul_49", "funcs": "lambda x: (int(x[0]) * int(x[1])) % 49", "C": 49, "n_heads": 4, "d_model": 110, "n_layers": 4, "attention_dir": "casual", "act_fn": "ReLU", "epoch": 20000, "batch_size": 2401, "lr": 0.001, "weight_decay": 2.0, "frac": 0.8, "attn_coeff": 0.36011460188835553, "runid": "allnrm632i", "diff_vocab": 0, "eqn_sign": 0, "func": null}

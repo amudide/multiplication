@@ -1,0 +1,1 @@
+{"name": "modadd_67", "funcs": "lambda x: pow(int(x[0]), int(x[1]), 67)", "C": 67, "n_heads": 4, "d_model": 429, "n_layers": 4, "attention_dir": "casual", "act_fn": "ReLU", "epoch": 20000, "batch_size": 4489, "lr": 0.001, "weight_decay": 2.0, "frac": 0.8, "attn_coeff": 0.6807824552904993, "runid": "oe68jofuc5", "diff_vocab": 0, "eqn_sign": 0, "func": null}

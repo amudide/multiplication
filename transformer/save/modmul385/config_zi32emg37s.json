@@ -1,0 +1,1 @@
+{"name": "modmul_385", "funcs": "lambda x: (int(x[0]) * int(x[1])) % 385", "C": 385, "n_heads": 4, "d_model": 40, "n_layers": 1, "attention_dir": "casual", "act_fn": "ReLU", "epoch": 20000, "batch_size": 148225, "lr": 0.001, "weight_decay": 2.0, "frac": 0.8, "attn_coeff": 0.031808987750052586, "runid": "zi32emg37s", "diff_vocab": 0, "eqn_sign": 0, "func": null}
