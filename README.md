@@ -1,4 +1,4 @@
-<img width="623" alt="figure" src="https://github.com/amudide/multiplication/assets/28817835/c574f847-869f-4cef-9187-04577fe947d2"># How does a transformer compute a*b (mod c)?
+# How does a transformer compute a*b (mod c)?
 
 When c is prime, the algorithm is analogous to the modular addition algorithm described by https://arxiv.org/abs/2301.05217 due to the existence of primitive roots.
 
