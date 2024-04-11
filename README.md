@@ -1,4 +1,4 @@
-# How does a transformer compute $a \cdot b  (\text{ (mod } c)$?
+# How does a transformer compute $a \cdot b\text{ (mod } c)$?
 
 When $c$ is prime, the algorithm is analogous to the modular addition algorithm described by [Nanda et al.](https://arxiv.org/abs/2301.05217) due to the existence of a primitive root $g$.
 
