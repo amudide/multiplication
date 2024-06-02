@@ -47,7 +47,7 @@ def run_experiment(model, full_dataset, config):
         for inputs, labels in test_loader:
             inputs = inputs.to(device)
             labels = labels.to(device)
-            pred = model(inputs)
+            pred = model(inputs)[:, -1, :]
             test_loss = CEL(pred, labels)
             test_acc = torch.mean((torch.argmax(pred, dim=1) == labels).float())
             test_losses.append(test_loss.item())
@@ -56,7 +56,7 @@ def run_experiment(model, full_dataset, config):
         for inputs, labels in train_loader:
             inputs = inputs.to(device)
             labels = labels.to(device)
-            pred = model(inputs)
+            pred = model(inputs)[:, -1, :]
             loss = CEL(pred, labels)
             acc = torch.mean((torch.argmax(pred, dim=1) == labels).float())
             train_losses.append(loss.item())
